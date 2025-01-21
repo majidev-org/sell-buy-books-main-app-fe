@@ -24,7 +24,7 @@ export default function Home() {
 			items: [
 				{
 					label: "Login",
-					icon: "pi-sign-in",
+					icon: "pi pi-sign-in",
 					command: () => {
 						console.log("sign in");
 
@@ -33,7 +33,7 @@ export default function Home() {
 				},
 				{
 					label: "Sign up",
-					icon: "pi-user-plus",
+					icon: "pi pi-user-plus",
 					command: () => {
 						console.log("sign up");
 
@@ -42,7 +42,7 @@ export default function Home() {
 				},
 				{
 					label: "Post Book Ad",
-					icon: "pi-file-plus",
+					icon: "pi pi-file-plus",
 					command: () => {
 						console.log("post book ad");
 						navigate("/addBooks");
@@ -50,7 +50,7 @@ export default function Home() {
 				},
 				{
 					label: "Logout",
-					icon: "pi-sign-out",
+					icon: "pi pi-user-minus",
 					command: () => {
 						console.log("post book ad");
 						// navigate("/addBooks");
